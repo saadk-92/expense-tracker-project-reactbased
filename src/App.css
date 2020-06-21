@@ -1,0 +1,43 @@
+.box{
+  max-width: 400px;
+  max-height: auto;
+  margin:0 auto;
+  background-color: #efefef;
+  box-shadow: 0 0 10px green;
+  margin-top: 50px;
+  padding: 15px 50px;
+}
+.text-center{
+  text-align: center;
+}
+.text-box{
+  display: flex;
+  justify-content:space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  border-radius: 15px 0;
+}
+.transaction-form input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.transaction-list {
+  margin: 0;
+  padding: 0px;
+}
+.transaction-list>li{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  padding: 5px 5px;
+  font-family: sans-serif;
+}
+.Add-Transaction{
+  background-color: plum;
+  box-shadow: 0;
+  padding: 5px 5px;
+  font-family: sans-serif;
+  border-color: plum;
+}
